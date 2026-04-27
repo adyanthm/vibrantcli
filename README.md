@@ -1,4 +1,4 @@
-# 🦎 mantis-colors
+# mantis-colors
 
 A simple, lightweight, and modern Python library for adding color and style to your terminal output.
 
