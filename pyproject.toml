@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "vibrant"
+name = "vibrantcli"
 version = "0.1.0"
 description = "A simple and powerful terminal color library with RGB, HEX, and styles"
 readme = "README.md"
@@ -22,8 +22,8 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/adyanth/vibrant"
-Repository = "https://github.com/adyanth/vibrant"
+Homepage = "https://github.com/adyanth/vibrantcli"
+Repository = "https://github.com/adyanth/vibrantcli"
 
 [tool.setuptools.packages.find]
 where = ["src"]

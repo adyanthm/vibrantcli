@@ -1,4 +1,4 @@
-# vibrant
+# vibrantcli
 
 A simple, lightweight, and modern Python library for adding color and style to your terminal output.
 
@@ -7,13 +7,13 @@ A simple, lightweight, and modern Python library for adding color and style to y
 ## Installation
 
 ```bash
-pip install vibrant
+pip install vibrantcli
 ```
 
 ## Quick Start
 
 ```python
-from vibrant import fg, bg, style, init
+from vibrantcli import fg, bg, style, init
 
 # You can initialize with autoreset so you don't have to manually reset colors after every color change!
 init(autoreset_enabled=True)
@@ -31,7 +31,7 @@ print(fg.hex("#ff6600") + style.bold + "bold orange text using HEX")
 Vibrant supports standard ANSI colors, as well as **RGB** and **HEX** for 24-bit True Color support.
 
 ```python
-from vibrant import fg, bg
+from vibrantcli import fg, bg
 
 # Standard colors
 print(fg.green + "success!")
@@ -50,7 +50,7 @@ print(bg.hex("0066ff") + "HEX blue background")
 Apply common text decorations with ease.
 
 ```python
-from vibrant import style
+from vibrantcli import style
 
 print(style.bold + "Bold Text")
 print(style.underline + "Underlined Text")
@@ -65,7 +65,7 @@ Are you tired of manually adding `reset` every time? Use `init()` or `autoreset(
 > When `autoreset` is enabled, use string concatenation (`+`) instead of commas (`,`) in `print()` to ensure colors apply correctly to the entire output.
 
 ```python
-from vibrant import init, fg, autoreset
+from vibrantcli import init, fg, autoreset
 autoreset()
 print(fg.red + "Everything is reset after each print call automatically")
 
@@ -78,7 +78,7 @@ print(fg.red + "Everything is reset after each print call automatically")
 
 ## Comparison
 
-| Feature | `vibrant` | `colorama` | `termcolor` |
+| Feature | `vibrantcli` | `colorama` | `termcolor` |
 | :--- | :---: | :---: | :---: |
 | **RGB Support** | ✅ | ❌ | ❌ |
 | **HEX Support** | ✅ | ❌ | ❌ |
