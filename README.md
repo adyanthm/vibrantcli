@@ -88,4 +88,4 @@ print(fg.red + "Everything is reset after each print call automatically")
 ---
 
 ## License
-MIT © [Adyanth M](https://github.com/adyanth)
+MIT © [Adyanth M](https://github.com/adyanthm)

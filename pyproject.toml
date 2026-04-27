@@ -22,8 +22,8 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/adyanth/mantis-colors"
-Repository = "https://github.com/adyanth/mantis-colors"
+Homepage = "https://github.com/adyanthm/mantis-colors"
+Repository = "https://github.com/adyanthm/mantis-colors"
 
 [tool.setuptools.packages.find]
 where = ["src"]
