@@ -1,4 +1,4 @@
-from vibrantcli import fg, bg, style, init, reset
+from mantis_colors import fg, bg, style, init, reset
 
 init(autoreset_enabled=True)
 
