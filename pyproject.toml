@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vibrant"
+version = "0.1.0"
+description = "A simple and powerful terminal color library with RGB, HEX, and styles"
+readme = "README.md"
+authors = [
+  { name="Adyanth M" }
+]
+license = { file = "LICENSE.md" }
+requires-python = ">=3.7"
+
+keywords = ["terminal", "color", "ansi", "rgb", "cli", "hex"]
+
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://github.com/adyanth/vibrant"
+Repository = "https://github.com/adyanth/vibrant"
+
+[tool.setuptools.packages.find]
+where = ["src"]
